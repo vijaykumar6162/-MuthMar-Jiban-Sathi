@@ -309,3 +309,214 @@ header{
     border-radius:30px;
     font-size:14px;
 }
+/* ======================
+Statistics
+====================== */
+
+.stats{
+
+padding:80px 8%;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+background:#fff0f5;
+
+}
+
+.stat-box{
+
+background:white;
+
+padding:40px;
+
+text-align:center;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.stat-box h2{
+
+font-size:42px;
+
+color:#e91e63;
+
+}
+
+.stat-box p{
+
+margin-top:10px;
+
+color:#666;
+
+}
+
+/* ======================
+Premium Plans
+====================== */
+
+.premium{
+
+padding:80px 8%;
+
+text-align:center;
+
+background:white;
+
+}
+
+.premium h2{
+
+font-size:42px;
+
+margin-bottom:50px;
+
+color:#e91e63;
+
+}
+
+.plan-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.plan{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+position:relative;
+
+}
+
+.plan h1{
+
+font-size:45px;
+
+color:#e91e63;
+
+margin:15px 0;
+
+}
+
+.plan ul{
+
+list-style:none;
+
+margin:25px 0;
+
+}
+
+.plan ul li{
+
+padding:10px;
+
+}
+
+.plan button{
+
+padding:14px 35px;
+
+border:none;
+
+background:#e91e63;
+
+color:white;
+
+border-radius:30px;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+.plan button:hover{
+
+background:#c2185b;
+
+}
+
+.popular{
+
+border:3px solid gold;
+
+}
+
+.popular span{
+
+position:absolute;
+
+top:-12px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+background:gold;
+
+padding:6px 18px;
+
+border-radius:30px;
+
+font-size:14px;
+
+font-weight:bold;
+
+}
+
+/* ======================
+Footer
+====================== */
+
+footer{
+
+background:#111;
+
+color:white;
+
+text-align:center;
+
+padding:60px 20px;
+
+}
+
+.footer-links{
+
+margin:30px 0;
+
+}
+
+.footer-links a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 15px;
+
+}
+
+.copy{
+
+margin-top:20px;
+
+color:#999;
+
+}
