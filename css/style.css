@@ -101,21 +101,12 @@ HERO SECTION
 =============================*/
 
 .hero{
-
-height:100vh;
-
-background:url("../image/hero.jpg");
-
-background-size:cover;
-
-background-position:center;
-
-position:relative;
-
-display:flex;
-
-align-items:center;
-
+    min-height:100vh;
+    background:url("../image/hero.jpg") center center/cover no-repeat;
+    position:relative;
+    display:flex;
+    align-items:center;
+    padding-top:110px;
 }
 
 .hero-overlay{
@@ -233,18 +224,79 @@ font-size:18px;
 margin-top:20px;
 
 }
+/* ===========================
+SEARCH CARD
+=========================== */
 
 .search-card{
 
-width:380px;
+    width:380px;
+    background:#ffffff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.25);
 
-background:white;
+}
 
-padding:35px;
+.search-card h2{
 
-border-radius:20px;
+    color:#ff2d6f;
+    margin-bottom:20px;
+    font-size:28px;
+    font-weight:700;
 
-box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+.search-card select,
+.search-card button{
+
+    width:100%;
+    height:55px;
+    margin:12px 0;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+
+}
+
+.search-card select{
+
+    border:1px solid #ddd;
+    padding:0 15px;
+    background:#fff;
+    transition:.3s;
+
+}
+
+.search-card select:hover{
+
+    border-color:#ff2d6f;
+
+}
+
+.search-card select:focus{
+
+    border-color:#ff2d6f;
+    box-shadow:0 0 10px rgba(255,45,111,.2);
+
+}
+
+.search-card button{
+
+    border:none;
+    background:#ff2d6f;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.search-card button:hover{
+
+    background:#e91e63;
+    transform:translateY(-2px);
 
 }
 
@@ -292,4 +344,10 @@ font-size:18px;
 
 cursor:pointer;
 
+}
+.hero-content{
+    display:grid;
+    grid-template-columns:1.3fr 0.8fr;
+    align-items:center;
+    gap:60px;
 }
