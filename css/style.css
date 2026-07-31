@@ -476,32 +476,44 @@ LATEST MEMBERS
 
 }
 
+.member-info button,
 .latest-info button{
 
     width:100%;
 
-    margin-top:20px;
+    padding:14px 20px;
 
-    padding:14px;
+    margin-top:18px;
 
     border:none;
 
-    border-radius:10px;
+    border-radius:50px;
 
-    background:#ff2d6f;
+    background:linear-gradient(135deg,#ff2d6f,#ff6b9d);
 
     color:#fff;
 
-    font-size:16px;
+    font-size:17px;
 
     font-weight:600;
 
     cursor:pointer;
 
-    transition:.3s;
+    transition:.35s;
+
+    box-shadow:0 8px 20px rgba(255,45,111,.35);
 
 }
+.member-info button:hover,
+.latest-info button:hover{
 
+    transform:translateY(-3px);
+
+    background:linear-gradient(135deg,#e91e63,#ff2d6f);
+
+    box-shadow:0 15px 35px rgba(255,45,111,.45);
+
+}
 .latest-info button:hover{
 
     background:#e91e63;
