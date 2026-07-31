@@ -101,12 +101,11 @@ HERO SECTION
 =============================*/
 
 .hero{
-    min-height:100vh;
-    background:url("../image/hero.png") center center/cover no-repeat;
-    position:relative;
-    display:flex;
-    align-items:center;
-    padding-top:110px;
+    background-image:url("../image/hero.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-color:#2b0620;
 }
 
 .hero-overlay{
