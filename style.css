@@ -1,0 +1,224 @@
+/* ===========================
+   MuthMar Jiban Sathi
+   Premium Theme
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fff8fb;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    width:100%;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#ffffff;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo h1{
+    font-size:30px;
+    color:#e91e63;
+    font-weight:700;
+}
+
+.logo span{
+    color:#6a1b9a;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 18px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#444;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#e91e63;
+}
+
+/* Buttons */
+
+.buttons a{
+    text-decoration:none;
+    padding:10px 22px;
+    border-radius:30px;
+    margin-left:10px;
+    font-weight:600;
+}
+
+.login{
+    border:2px solid #e91e63;
+    color:#e91e63;
+}
+
+.register{
+    background:#e91e63;
+    color:white;
+}
+
+.register:hover{
+    background:#d81b60;
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px 8%;
+    min-height:85vh;
+}
+
+.left{
+    width:50%;
+}
+
+.left h2{
+    font-size:55px;
+    line-height:1.2;
+    color:#222;
+}
+
+.left p{
+    margin:25px 0;
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.hero-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#e91e63;
+    color:white;
+    padding:16px 35px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:#c2185b;
+    transform:translateY(-3px);
+}
+
+.right{
+    width:45%;
+    text-align:center;
+}
+
+.right img{
+    width:100%;
+    max-width:520px;
+    border-radius:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* Search Section */
+
+.search-box{
+    width:85%;
+    margin:40px auto 80px;
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.search-box h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#e91e63;
+}
+
+.search-box form{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.search-box select,
+.search-box button{
+    padding:14px 18px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    font-size:16px;
+}
+
+.search-box button{
+    background:#e91e63;
+    color:white;
+    border:none;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.search-box button:hover{
+    background:#c2185b;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.right{
+    margin-top:40px;
+}
+
+.left h2{
+    font-size:38px;
+}
+
+nav{
+    display:none;
+}
+
+header{
+    flex-wrap:wrap;
+}
+
+.search-box form{
+    flex-direction:column;
+}
+
+.search-box select,
+.search-box button{
+    width:100%;
+}
+}
