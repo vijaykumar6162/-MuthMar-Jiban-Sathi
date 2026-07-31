@@ -551,3 +551,17 @@ LATEST MEMBERS
     padding:10px;
 
 }
+.owner-name{
+    list-style:none;
+    background:linear-gradient(135deg,#ff2d6f,#ff7aa8);
+    color:#fff;
+    padding:10px 22px;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:1px;
+    box-shadow:0 8px 20px rgba(255,45,111,.35);
+    margin-right:40px;
+    display:flex;
+    align-items:center;
+}
