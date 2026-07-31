@@ -45,21 +45,14 @@ header .container{
 }
 
 .logo h1{
-
     color:#ff2d6f;
-
-    font-size:45px;
-
+    font-size:32px;
     font-weight:800;
-
 }
 
 .logo span{
-
-    font-size:22px;
-
+    font-size:16px;
     font-weight:600;
-
 }
 
 nav ul{
