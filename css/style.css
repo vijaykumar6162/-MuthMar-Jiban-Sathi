@@ -565,3 +565,109 @@ LATEST MEMBERS
     display:flex;
     align-items:center;
 }
+/* =====================================
+RESPONSIVE DESIGN
+===================================== */
+
+@media screen and (max-width:768px){
+
+.container{
+    width:95%;
+}
+
+/* Header */
+
+header{
+    position:relative;
+}
+
+header .container{
+    flex-direction:column;
+    align-items:center;
+    padding:15px 0;
+}
+
+.logo{
+    text-align:center;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:15px;
+}
+
+.owner-name{
+    display:none;
+}
+
+/* Hero */
+
+.hero{
+    min-height:auto;
+    padding:50px 0;
+    background-position:center;
+}
+
+.hero-content{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-left,
+.hero-right{
+    width:100%;
+}
+
+.hero-left h1{
+    font-size:42px;
+}
+
+.hero-left p{
+    font-size:18px;
+    line-height:30px;
+}
+
+.hero-btns{
+    flex-direction:column;
+    gap:15px;
+}
+
+.hero-features{
+    flex-direction:column;
+    gap:12px;
+}
+
+/* Search Card */
+
+.search-card{
+    width:100%;
+    margin-top:30px;
+}
+
+/* Featured Members */
+
+.member-grid{
+    grid-template-columns:1fr;
+}
+
+.member-card img{
+    height:auto;
+    object-fit:contain;
+    padding:0;
+}
+
+/* Latest Members */
+
+.latest-grid{
+    grid-template-columns:1fr;
+}
+
+.latest-card img{
+    height:auto;
+    object-fit:contain;
+}
+
+}
